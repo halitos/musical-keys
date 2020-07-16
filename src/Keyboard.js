@@ -4,7 +4,7 @@ import Key from "./Key";
 const Keyboard = () => {
   return (
     <div className="keyboard">
-      <Key />
+      <Key notes={["A", "B", "C", "D", "E", "F", "G", "H"]} />
     </div>
   );
 };
