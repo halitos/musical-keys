@@ -1,7 +1,7 @@
 import React from "react";
 
-const Key = ({ notes }) => {
-  return notes.map((p, index) => {
+const Key = (props) => {
+  return props.notes.map((p, index) => {
     return <button key={index}>{p}</button>;
   });
 };
