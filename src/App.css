@@ -1,15 +1,22 @@
 body {
   text-align: center;
-  background-color: silver;
+  background-color: rgb(179, 180, 212);
+}
+
+.header {
+  margin: 20px;
+  color: rgb(56, 3, 117);
 }
 
 button {
   margin-top: 50px;
   width: 80px;
   height: 240px;
-  background: linear-gradient(rgb(0, 0, 0), rgb(256, 256, 256));
+  background: linear-gradient(rgb(94, 92, 92), rgb(256, 256, 256));
   font-size: xx-large;
-  font-family: cursive;
+  font-family: "Courier New", Courier, monospace;
   border-radius: 5px;
-  color: orange;
+  color: darkblue;
+  border-color: darkblue;
+  border-style: double;
 }
