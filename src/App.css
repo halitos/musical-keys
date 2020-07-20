@@ -4,12 +4,14 @@ body {
 }
 
 .header {
-  margin: 20px;
-  color: rgb(56, 3, 117);
+  margin: 10px;
+  color: rgb(56, 15, 102);
+  padding: 10px;
+  font-size: x-large;
 }
 
 button {
-  margin-top: 50px;
+  margin: 20px 0px;
   width: 80px;
   height: 240px;
   background: linear-gradient(rgb(94, 92, 92), rgb(256, 256, 256));
