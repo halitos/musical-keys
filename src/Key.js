@@ -2,7 +2,7 @@ import React from "react";
 import Tone from "tone";
 
 const Key = (props) => {
-  return props.notes.map((p, index) => {
+  return props.scales.map((p, index) => {
     return (
       <button id={p} key={index} onClick={handleClick}>
         <br></br>

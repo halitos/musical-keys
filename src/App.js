@@ -1,15 +1,13 @@
 import React from "react";
-import Keyboard from "./Keyboard";
 import Header from "./Header";
-import SelectScale from "./SelectScale";
+import KeyBoard from "./KeyBoard";
 import "./App.css";
 
 function App() {
   return (
     <>
       <Header />
-      <Keyboard />
-      <SelectScale />
+      <KeyBoard />
     </>
   );
 }
