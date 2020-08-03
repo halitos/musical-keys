@@ -8,18 +8,24 @@ const scales = {
 };
 
 const KeyBoard = () => {
-  const [scale, setScale] = useState();
+  const [scale, setScale] = useState(scales.pentatonic);
 
   function handleChange(event) {
-    const newScale = event.target.value;
+    const opt = event.target.selectedOptions;
+    if (opt.length !== 1) {
+      return;
+    }
+    let newScale = opt[0].value;
     console.log(newScale);
-    setScale(scales.newScale);
+    setScale(scales[newScale]);
     console.log(scale);
   }
 
   return (
     <div>
-      <Key scales={scales.pentatonic} />
+      <div>
+        <Key scales={scale} />
+      </div>
       <select onChange={handleChange}>
         {Object.keys(scales).map((s) => (
           <option id={s} value={s} key={s}>
