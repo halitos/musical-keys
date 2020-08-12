@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "./Header";
-import KeyBoard from "./KeyBoard";
+import KeyBoard from "./keyBoard";
 import "./App.css";
 
 function App() {
